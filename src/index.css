@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.instaBorder {
+  border-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%)) 30;
+}
+
+.fb {
+  border-color: hsl(208, 92%, 53%);
+}
+.tw {
+  border-color: hsl(203, 89%, 53%);
+}
+.yt {
+  border-color: hsl(348, 97%, 39%);
+}
